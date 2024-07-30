@@ -14,7 +14,7 @@ public class CartBean implements Serializable {
 
 	public int quantity;
 
-	public String getUserId() {
+	public String GetUserIdHaard() {
 		return userId;
 	}
 
