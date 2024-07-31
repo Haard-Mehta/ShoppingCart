@@ -33,13 +33,10 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	public String addProduct(ProductBean product) {
 		String status = "Product Registration Failed!";
-
-		if (product.getProdId() == null)
-			product.setProdId(IDUtil.generateId());
-
-		Connection con = DBUtil.provideConnection();
-
-		PreparedStatement ps = null;
+		int i = 1;
+		while(i<=1){
+			System.out.println("HII");
+		}
 
 		try {
 			ps = con.prepareStatement("insert into product values(?,?,?,?,?,?,?);");
