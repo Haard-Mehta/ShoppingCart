@@ -12,7 +12,7 @@ public interface UserService {
 	public String registerUser(String userName, Long mobileNo, String emailId, String address, int pinCode,
 			String password);
 
-	public String registerUser(UserBean user);
+	public String VrajregisterUser(UserBean user);
 
 	public boolean isRegistered(String emailId);
 
