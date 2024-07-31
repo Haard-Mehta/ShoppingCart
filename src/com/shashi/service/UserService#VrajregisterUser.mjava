@@ -1,0 +1,8 @@
+public
+String
+VrajregisterUser
+(
+UserBean
+user
+)
+;

@@ -1,0 +1,13 @@
+public
+void
+setUserIdHaard
+(
+String
+userId
+)
+{
+this
+.
+userId=userId
+;
+}
